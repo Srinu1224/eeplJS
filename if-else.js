@@ -18,10 +18,10 @@ const False = false
 //     console.log("There is a False value.");
 // }
 
-let x = 159945
-let y = 16000
-let z = 20000
-let a = 4003
+let x = 15
+let y = 50
+let z = 201
+let a = 10
 /*if(x > y && x > z && x > a)
 {
     console.log("x is greater");
@@ -37,7 +37,7 @@ else{
     console.log(" a is greater");
 }*/
 
-if (x > y) {
+/*if (x > y) {
     if (x > z) {
         if(x > a){
         console.log("x is greater ");
@@ -69,4 +69,38 @@ if (a > x) {
         }
     }
     //console.log(" z is greater than x");
+}*/
+
+// if (x > y) {
+//     if (x > z) {
+//         console.log("X is Greater");
+//     }
+//     else {
+//         console.log("Z is greater");
+//     }
+// }
+// else if (y > z) {
+//     console.log("Y is Greater");
+// }
+
+// else {
+//     console.log("Z is greater");
+// }
+
+
+//====================================================================================
+
+if (x > y) {
+    if (x > z) {
+        console.log("X is greater");
+    }
+    else {
+        console.log("Z is greater 1");
+    }
+}
+else if (y > z) {
+    console.log("Y is greater");
+}
+else {
+    console.log("Z is Greater");
 }
